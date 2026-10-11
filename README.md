@@ -1,10 +1,14 @@
 # 🏦 PRP Project 2 — Banking Analytics Platform
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://banking-analytics-application-hks.streamlit.app/)
+[![Python](https://img.shields.io/badge/python-3.11-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 **An end-to-end, live-computed banking analytics web app** covering fraud risk, credit risk, and
 branch performance for a synthetic 1.26M-row retail/commercial banking dataset — built as a
 data-analyst internship capstone and deployed as an interactive Streamlit application.
 
-🔗 **Live app:** _add your Streamlit Community Cloud URL here after deployment_
+🔗 **Live app:** [banking-analytics-application-hks.streamlit.app](https://banking-analytics-application-hks.streamlit.app/)
 
 ---
 
@@ -76,8 +80,8 @@ A synthetic banking dataset spanning 7 related tables and **1,260,500 total rows
 ## Running locally
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/HarshDataWorks/banking_analytics_streamlit_application
+cd banking-analytics-application
 pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
